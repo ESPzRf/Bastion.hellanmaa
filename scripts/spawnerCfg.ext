@@ -7,7 +7,7 @@ class common_rf_spawner_class //общий рф
         displayName = "Общий запрос техники";
         vehicles[] =
         {
-            {"rhs_D30_msv",2,"true"},
+            {"rhs_D30_msv",1,"true"},
             {"rhs_t80bv",1,"true"},
             {"rhs_btr82a_msv",1,"true"},
             {"NORD_BRDM2_RU",1,"true"},
