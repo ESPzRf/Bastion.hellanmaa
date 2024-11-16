@@ -8,8 +8,7 @@ zeusmodule = [
 "76561199092032866",
 "76561199170733116",
 "76561198840088474",
-"76561199561958380",
-"76561199234252868"
+"76561199561958380"
 ];
 if (!(_playerUID in zeusmodule)) exitwith {};
 if ((side player != civilian) && (_playerUID != "76561198014851022") && (_playerUID != "76561199075607350") && (_playerUID !="") && (_playerUID != "") && (_playerUID != "")) exitwith {};
