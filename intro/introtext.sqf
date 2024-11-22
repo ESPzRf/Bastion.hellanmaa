@@ -10,7 +10,9 @@ sleep 11; //Время до начала титров
 _role1 = "Добро пожаловать на Bastion";
 _role1names = [profileName];
 _role2 = "Игровой проект Bastion";
-_role2names = ["Проект Торпеды"];
+_role2names = ["Revived by Enthusiasts"];
+_role3 = "Прекрасный";
+_role3names = ["Bastion Team"];
 _role6 = "Удачной игры!";
 _role6names = [profileName];
 {
