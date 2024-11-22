@@ -82,13 +82,13 @@ class logistic_rf_spawner_class //ящики рф
         
     };
 };
-class csn604_spawner_class //11ОДШБР
+class akhmat_spawner_class //АХМАТ
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == csn604_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == akhmat_spawner)"; // "(playerSide in [west,independent])"
     
-    class csn604_spawner_class
+    class akhmat_spawner_class
     {
-        displayName = "Запрос техники 604 ЦСН";
+        displayName = "Запрос техники АХМАТ";
         vehicles[] =
         {
             {"Z_TAG_Gaz_2330",2,"true"},
@@ -110,18 +110,18 @@ class csn604_spawner_class //11ОДШБР
         };
         spawnPoints[] =
         {
-            {"1",{"csn604_spawnplace"}}
+            {"1",{"akhmat_spawnplace"}}
         };
         
     };
 };
-class odshbr11_spawner_class //11ОДШБР
+class msd3_spawner_class //3МСД
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == odshbr11_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == msd3_spawner)"; // "(playerSide in [west,independent])"
     
-    class odshbr11_spawner_class
+    class msd3_spawner_class
     {
-        displayName = "Запрос техники 11 ОДШБР";
+        displayName = "Запрос техники 3 мсд";
         vehicles[] =
         {
             {"rhs_bmd4m_vdv",1,"true"},
@@ -141,18 +141,18 @@ class odshbr11_spawner_class //11ОДШБР
         };
         spawnPoints[] =
         {
-            {"1",{"odshbr11_spawnplace"}}
+            {"1",{"msd3_spawnplace"}}
         };
         
     };
 };
-class dshb1_spawner_class //1ДШБ
+class msb4_spawner_class //4МСБ
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == dshb1_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == msb4_spawner)"; // "(playerSide in [west,independent])"
     
-    class dshb1_spawner_class
+    class msb4_spawner_class
     {
-        displayName = "Запрос техники 1 ДШБ";
+        displayName = "Запрос техники 4 мсб";
         vehicles[] =
         {
             {"Z_TAG_bmd2k",1,"true"},
@@ -174,18 +174,18 @@ class dshb1_spawner_class //1ДШБ
         };
         spawnPoints[] =
         {
-            {"1",{"dshb1_spawnplace"}}
+            {"1",{"msb4_spawnplace"}}
         };
         
     };
 };
-class pdb3_spawner_class //3ПДБ
+class bars16_spawner_class //БАРС16
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == pdb3_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == bars16_spawner)"; // "(playerSide in [west,independent])"
     
-    class pdb3_spawner_class
+    class bars16_spawner_class
     {
-        displayName = "Запрос техники 3 ПДБ";
+        displayName = "Запрос техники БАРС-16";
         vehicles[] =
         {
             {"Z_TAG_bmd2k",2,"true"},
@@ -215,18 +215,18 @@ class pdb3_spawner_class //3ПДБ
         };
         spawnPoints[] =
         {
-            {"1",{"pdb3_spawnplace"}}
+            {"1",{"bars16_spawnplace"}}
         };
         
     };
 };
-class smp141_spawner_class //141СМП
+class msd144_spawner_class //141МСД
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == smp141_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == msd144_spawner)"; // "(playerSide in [west,independent])"
     
-    class smp141_spawner_class
+    class msd144_spawner_class
     {
-        displayName = "Запрос техники 141 СМП";
+        displayName = "Запрос техники 144 мсд";
         vehicles[] =
         {
             {"Z_TAG_bmp3m",1,"true"},
@@ -247,7 +247,7 @@ class smp141_spawner_class //141СМП
         };
         spawnPoints[] =
         {
-            {"1",{"smp141_spawnplace"}}
+            {"1",{"msd144_spawnplace"}}
         };
         
     };
@@ -357,17 +357,16 @@ class logistic_vsu_spawner_class //ящики всу
         
     };
 };
-class alpha_spawner_class //Альфа
+class dpsu_spawner_class //ДПСУ
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == alpha_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == dpsu_spawner)"; // "(playerSide in [west,independent])"
     
-    class alpha_spawner_class
+    class dpsu_spawner_class
     {
-        displayName = "Запрос техники Альфы";
+        displayName = "Запрос техники ДПСУ";
         vehicles[] =
         {
             {"b_afougf_old_bmd1",1,"true"},
-            {"b_afougf_bmd2",1,"true"},
             {"b_afougf_uaf_bmp1",1,"true"},
             {"b_afougf_yt_BRDM2_UM",1,"true"},
             {"FA_UAF_BTR3",1,"true"},
@@ -390,13 +389,13 @@ class alpha_spawner_class //Альфа
         
     };
 };
-class odshbr80_spawner_class //80ОДШБр
+class odshbr95_spawner_class //95ОДШБР
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == odshbr80_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == odshbr95_spawner)"; // "(playerSide in [west,independent])"
     
-    class odshbr80_spawner_class
+    class odshbr95_spawner_class
     {
-        displayName = "Запрос техники 80 ОДШБр";
+        displayName = "Запрос техники 95 одшбр";
         vehicles[] =
         {
             {"b_afougf_old_bmd1",1,"true"},
@@ -405,7 +404,6 @@ class odshbr80_spawner_class //80ОДШБр
             {"uaz2206_ukr_krest",2,"true"},
             {"uaz2206_ukr_med",2,"true"},
             {"b_afougf_uaf_novator",2,"true"},
-            {"t80u_ukr_krest",1,"true"},
             {"t72bb_ukr_krest",1,"true"},
             {"b_afougf_old_AGS30_TriPod",1,"true"},
             {"b_afougf_old_DSHKM",1,"true"},
@@ -418,24 +416,23 @@ class odshbr80_spawner_class //80ОДШБр
         };
         spawnPoints[] =
         {
-            {"1",{"odshbr80_spawnplace"}}
+            {"1",{"odshbr95_spawnplace"}}
         };
         
     };
 };
-class opspp3_spawner_class //3ОпСпп
+class dikepole_spawner_class //ДикеПоле
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == opspp3_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == dikepole_spawner)"; // "(playerSide in [west,independent])"
     
-    class opspp3_spawner_class
+    class dikepole_spawner_class
     {
-        displayName = "Запрос техники 3 ОпСпп";
+        displayName = "Запрос техники Дике поле";
         vehicles[] =
         {
             {"b_afougf_uaf_btr4",1,"true"},
-            {"b_afougf_uaf_novator",2,"true"},
+            {"b_afougf_uaf_novator",3,"true"},
             {"b_afougf_uaf_novator_atgm",1,"true"},
-            {"b_afougf_kozak5_turret_armored_F",1,"true"},
             {"b_afougf_old_AGS30_TriPod",1,"true"},
             {"b_afougf_old_DSHKM",1,"true"},
             {"b_afougf_old_SPG9M",2,"true"},
@@ -447,21 +444,22 @@ class opspp3_spawner_class //3ОпСпп
         };
         spawnPoints[] =
         {
-            {"1",{"opspp3_spawnplace"}}
+            {"1",{"dikepole_spawnplace"}}
         };
         
     };
 };
-class shaman_spawner_class //Шаман
+class davinci_spawner_class //ДаВiнчi
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == shaman_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == davinci_spawner)"; // "(playerSide in [west,independent])"
     
-    class shaman_spawner_class
+    class davinci_spawner_class
     {
-        displayName = "Запрос техники Шаман";
+        displayName = "Запрос техники Да Вінчі";
         vehicles[] =
         {
             {"b_afougf_uaf_btr4",1,"true"},
+            {"b_afougf_bmd2",1,"true"},
             {"landcruiser_ukr_krest",2,"true"},
             {"b_afougf_uaf_novator_atgm",1,"true"},
             {"b_afougf_kozak5_turret_F",1,"true"},
@@ -476,23 +474,24 @@ class shaman_spawner_class //Шаман
         };
         spawnPoints[] =
         {
-            {"1",{"shaman_spawnplace"}}
+            {"1",{"davinci_spawnplace"}}
         };
         
     };
 };
-class brngy4_spawner_class //4БрНГУ
+class ngu5_spawner_class //5НГУ
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == brngy4_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == ngu5_spawner)"; // "(playerSide in [west,independent])"
     
-    class brngy4_spawner_class
+    class ngu5_spawner_class
     {
-        displayName = "Запрос техники 4БрНГУ";
+        displayName = "Запрос техники 5 нгу";
         vehicles[] =
         {
             {"b_afougf_bmd2",1,"true"},
             {"b_afougf_uaf_bmp1",1,"true"},
             {"t72bb_ukr_krest",1,"true"},
+            {"t80u_ukr_krest",1,"true"},
             {"rhsgref_cdf_b_btr60",1,"true"},
             {"b_afougf_yt_BRDM2_UM",1,"true"},
             {"b_afougf_yt_BRDM2_HQ",1,"true"},
@@ -512,18 +511,18 @@ class brngy4_spawner_class //4БрНГУ
         };
         spawnPoints[] =
         {
-            {"1",{"brngy4_spawnplace"}}
+            {"1",{"ngu5_spawnplace"}}
         };
         
     };
 };
-class odshbr95_spawner_class //95 одшбр
+class ogshbr128_spawner_class //128огшбр
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == odshbr95_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == ogshbr128_spawner)"; // "(playerSide in [west,independent])"
     
-    class odshbr95_spawner_class
+    class ogshbr128_spawner_class
     {
-        displayName = "Запрос техники 95 одшбр";
+        displayName = "Запрос техники 128 огшбр";
         vehicles[] =
         {
             {"b_afougf_uaf_btr4",1,"true"},
@@ -542,7 +541,7 @@ class odshbr95_spawner_class //95 одшбр
         };
         spawnPoints[] =
         {
-            {"1",{"odshbr95_spawnplace"}}
+            {"1",{"ogshbr128_spawnplace"}}
         };
         
     };
